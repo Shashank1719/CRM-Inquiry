@@ -1,24 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import { Inquiries } from "./Components/Inquiries";
+import { Inquiries_Filter } from "./Components/Inquiries_Filter";
+import { Table_Inquiry_final } from "./Components/Table_Inquiry_final";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Table_Inquiry_final/>
+      <Inquiries/>
+      <Inquiries_Filter/>
+      
+    </>
   );
 }
 
