@@ -1,5 +1,4 @@
 import React from 'react'
-import '../CSS/Inquiries.css'
 export const Inquiries = () => {
   /*
   const toggleFullScreen = () => {
@@ -85,6 +84,14 @@ export const Inquiries = () => {
  
   const myComponentStyle = {
     fontSize: "20px",
+  }
+  const tableStyle={
+    borderWidth: "3px",
+    borderStyle: "solid",
+    borderColor: "rgb(197, 197, 197)",
+    marginTop: "57px",
+    tableLayout: "fixed",
+    borderCollapse: "collapse"
   }
   return (
     <div className="px-20 py-12">
